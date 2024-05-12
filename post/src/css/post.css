@@ -1,0 +1,11 @@
+.bold-mention::after{
+    content: attr(data-bold); 
+    font-weight: bold;
+    color: blue;
+  }
+  
+
+
+  .selected-mention {
+    font-weight: bold; 
+  }
